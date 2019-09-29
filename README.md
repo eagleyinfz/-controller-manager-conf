@@ -1,3 +1,4 @@
+```
 ###
 # The following values are used to configure the kubernetes controller-manager
 
@@ -13,4 +14,5 @@ KUBE_CONTROLLER_MANAGER_ARGS="--address=127.0.0.1 \
                               --service-account-private-key-file=/etc/kubernetes/ssl/ca-key.pem \
                               --root-ca-file=/etc/kubernetes/ssl/ca.pem \
                               --leader-elect=true \
-                              --horizontal-pod-autoscaler-use-rest-clients=false"
+                              --horizontal-pod-autoscaler-use-rest-clients=false
+```
